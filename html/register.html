@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beli Skuy</title>
     <link rel="stylesheet" href="../css/register.css">
+    <script defer src="../js/registerVal.js"></script>
 </head>
 <body>
     <!-- navbar -->
@@ -24,9 +25,78 @@
         </div>
     </div>
     <!-- content -->
-    <div class="content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi aperiam iusto officiis nulla enim aspernatur ipsam autem repellat mollitia dolor, eos natus! Eum quia repudiandae vitae, nulla corrupti commodi.
-    </div>
+    <main>
+        <section>
+            <div class="container">
+                <div class="flex100">
+                    <h1>Register Form</h1>
+                    <form action="" class="flex100">
+                        <div class="containerCol">
+                            <div class="container flexStart formItem">
+                                <div class="flex50">
+                                    <label for="username">Username:</label><span id="username"></span>
+                                </div>
+                                <div class="flex50">
+                                    <input type="text" name="username" id="username" required>
+                                </div>
+                            </div>
+                            <div class="container flexStart formItem">
+                                <div class="flex50">
+                                    <label for="email">Email:</label><span id="email"></span>
+                                </div>
+                                <div class="flex50">
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                            </div>
+                            <div class="container flexStart formItem">
+                                <div class="flex50">
+                                    <label for="password">Password:</label><span id="password"></span>
+                                </div>
+                                <div class="flex50">
+                                    <input type="password" name="password" id="password" required>
+                                </div>
+                            </div>
+                            <div class="container flexStart formItem">
+                                <div class="flex50">
+                                    <label for="confpassword">Confirmation Password:</label><span id="confpassword"></span>
+                                </div>
+                                <div class="flex50">
+                                    <input type="password" name="confpassword" id="confpassword" required>
+                                </div>
+                            </div>
+                            <div class="container flexStart formItem">
+                                <div class="flex50">
+                                    <label for="date">DoB:</label><span id="dob"></span>
+                                </div>
+                                <div class="flex50">
+                                    <input type="date" name="date" id="dob" required>
+                                </div>
+                            </div>
+                            <div class="container flexStart formItem">
+                                <div class="flex50">
+                                    <label for="gender">Gender:</label><span id="gender"></span>
+                                </div>
+                                <div class="flex50">
+                                    <input type="radio" name="gender" id="male" value="male">
+                                    <label for="male" >Male</label>
+                                    <input type="radio" name="gender" id="female" value="female">
+                                    <label for="female" >Female</label>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="container justifyCenter alignCenter formItem">
+                                <input type="checkbox" id="agree" name="agree" value="agree" required>
+                                <label for="agree">I agree to the terms and conditons</label><br><span id="agree"></span>
+                            </div>
+                            <div class="container justifyCenter alignCenter formItem">
+                                <button type="button" onclick="validateRegisForm()">Register</button>
+                            </div>
+                        </div>    
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- footer -->
     <div class="footer">
         <div class="foot-txt">BeliSkuy © 2023</div>
