@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beli Skuy</title>
     <link rel="stylesheet" href="../css/register.css">
-    <script defer src="../js/registerVal.js"></script>
 </head>
 <body>
     <!-- navbar -->
@@ -34,7 +33,7 @@
                         <div class="containerCol">
                             <div class="container flexStart formItem">
                                 <div class="flex50">
-                                    <label for="username">Username:</label><span id="username"></span>
+                                    <label for="username">Username:</label>
                                 </div>
                                 <div class="flex50">
                                     <input type="text" name="username" id="username" required>
@@ -42,7 +41,7 @@
                             </div>
                             <div class="container flexStart formItem">
                                 <div class="flex50">
-                                    <label for="email">Email:</label><span id="email"></span>
+                                    <label for="email">Email:</label>
                                 </div>
                                 <div class="flex50">
                                     <input type="email" name="email" id="email" required>
@@ -50,7 +49,7 @@
                             </div>
                             <div class="container flexStart formItem">
                                 <div class="flex50">
-                                    <label for="password">Password:</label><span id="password"></span>
+                                    <label for="password">Password:</label>
                                 </div>
                                 <div class="flex50">
                                     <input type="password" name="password" id="password" required>
@@ -58,7 +57,7 @@
                             </div>
                             <div class="container flexStart formItem">
                                 <div class="flex50">
-                                    <label for="confpassword">Confirmation Password:</label><span id="confpassword"></span>
+                                    <label for="confpassword">Confirmation Password:</label>
                                 </div>
                                 <div class="flex50">
                                     <input type="password" name="confpassword" id="confpassword" required>
@@ -66,7 +65,7 @@
                             </div>
                             <div class="container flexStart formItem">
                                 <div class="flex50">
-                                    <label for="date">DoB:</label><span id="dob"></span>
+                                    <label for="date">DoB:</label>
                                 </div>
                                 <div class="flex50">
                                     <input type="date" name="date" id="dob" required>
@@ -74,7 +73,7 @@
                             </div>
                             <div class="container flexStart formItem">
                                 <div class="flex50">
-                                    <label for="gender">Gender:</label><span id="gender"></span>
+                                    <label for="gender">Gender:</label>
                                 </div>
                                 <div class="flex50">
                                     <input type="radio" name="gender" id="male" value="male">
@@ -83,10 +82,9 @@
                                     <label for="female" >Female</label>
                                 </div>
                             </div>
-                            </div>
                             <div class="container justifyCenter alignCenter formItem">
-                                <input type="checkbox" id="agree" name="agree" value="agree" required>
-                                <label for="agree">I agree to the terms and conditons</label><br><span id="agree"></span>
+                                <input type="checkbox" id="agree" name="agree" required>
+                                <label for="agree">I agree to the terms and conditons</label><br>
                             </div>
                             <div class="container justifyCenter alignCenter formItem">
                                 <button type="button" onclick="validateRegisForm()">Register</button>
@@ -101,5 +99,6 @@
     <div class="footer">
         <div class="foot-txt">BeliSkuy © 2023</div>
     </div>
+    <script defer src="../js/registerVal.js"></script>
 </body>
 </html>
