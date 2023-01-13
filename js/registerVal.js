@@ -9,7 +9,7 @@ function validateRegisForm(){
     var checkbox = document.getElementById("agree").value
 
     if(username.length < 5 || username.length > 15){
-        alert("Your username length must be greater than 5 character and less then 15 character!")
+        alert("Your username length must be greater than 5 characters and less then 15 characters!")
     } else if(!email.endsWith("@gmail.com") && !email.endsWith("@yahoo.com")){
         alert("Your email must ends with @gmail.com or @yahoo.com!")
     } else if(checkAlphanumeric(password)){
@@ -37,7 +37,7 @@ function checkAlphanumeric(password){
         } else{
             numeric = true
         }
-        if(alphabet === true & numeric === true){
+        if(alphabet == true & numeric == true){
             return true
         }
     } return false
