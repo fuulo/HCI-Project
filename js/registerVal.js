@@ -4,9 +4,11 @@ function validateRegisForm(){
     var password = document.getElementById("password").value
     var confpassword = document.getElementById("confpassword").value
     var dob = document.getElementById("dob").value
-    var male = document.getElementById("male").value
-    var female = document.getElementById("female").value
-    var checkbox = document.getElementById("agree").value
+    var male = document.getElementById("male").checked
+    var female = document.getElementById("female").checked
+    var checkbox = document.getElementById("agree").checked
+
+    console.log(username +" "+email+" "+password+" "+confpassword+" "+dob+" "+male+" "+female+" "+checkbox);
 
     if(username.length < 5 || username.length > 15){
         alert("Your username length must be greater than 5 characters and less then 15 characters!")
@@ -29,8 +31,11 @@ function validateRegisForm(){
 
 function checkAlphanumeric(password){
     var alphabet = false
-    var numeric = false 
+    var numeric = false
 
+    if(password.length < 8){
+        alert("Your password length must be greater than 8 characters!")
+    }
     for(let i = 0; i < password.length; i++){
         if(isNaN(password[i])){
             alphabet = true
