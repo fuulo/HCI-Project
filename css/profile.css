@@ -56,9 +56,82 @@
 /* content */
 .content{
     display: flex;
-    margin-top: 8rem;
-    
+    margin-top: 9rem;
 }
+* {
+    margin: 0;
+}
+body {
+    background-color: #e8f5ff;
+    overflow: hidden;
+}
+
+.title {
+   padding-top: 15px;
+    position: fixed;
+    left: 45%;
+    margin-top: -20px;
+}
+
+
+/* Sidenav */
+.sidenav {
+    background-color: #fff;
+    color: #333;
+    border-bottom-right-radius: 25px;
+    height: 36%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: fixed;
+    top: x;
+    width: 250px;
+}
+
+.profile {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+/* Main */
+.main {
+    margin-top: 2%;
+    margin-left: 29%;
+    font-size: 28px;
+    padding: 10px 10px;
+    width: 58%;
+}
+
+
+
+.main .card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+}
+
+.main .card table {
+    border: none;
+    font-size: 16px;
+    height: 270px;
+    width: 80%;
+}
+
 /* footer */
 .footer{
     background-color: #FF9F45;
