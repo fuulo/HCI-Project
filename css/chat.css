@@ -55,64 +55,79 @@
 }
 /* content */
 .box{
-    margin: 100px;
-    padding: 20px;
-    border: solid #FF9F45 5px;
-    border-radius: 15px;
-    background-color:#F76E11;
+  margin: 100px;
+  padding: 20px;
+  border: solid #FF9F45 5px;
+  border-radius: 15px;
+  background-color:#F76E11;
+  width: 100%;
 }
 
 .container {
-    border: 2px solid #f5f2f2;
-    background-color: #FFBC80;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
-  }
-  .darker {
-    border-color: #f5f2f2;
-    background-color: #FF9F45;
-  }
-  .container::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .container img {
-    float: left;
-    max-width: 60px;
-    width: 100%;
-    margin-right: 20px;
-    border-radius: 50%;
-  }
-  .container img.right {
-    float: right;
-    margin-left: 20px;
-    margin-right:0;
-  } 
-  .container .shoes{
-    margin-top: 12px;
-    max-width: 150px;
-    border-radius: 0%;
-  }
-  .time-right {
-    float: right;
-    color: rgb(242, 242, 242);
-  }
-  .time-left {
-    float: left;
-    color: rgb(242, 242, 242);
-  }
-  #left{
-    margin-left: 12px;
-    margin-bottom: 10px;
-    text-align:left;
-  }
-  #right{
-    margin-right: 12px;
-    margin-bottom: 10px;
-    text-align: right;
-  }
+  border: 2px solid #f5f2f2;
+  background-color: #FFBC80;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+.darker {
+  border-color: #f5f2f2;
+  background-color: #FF9F45;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container img {
+  float: left;
+  max-width: 5rem;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+} 
+.container .shoes{
+  margin-top: 12px;
+  max-width: 10rem;
+  width: 100%;
+  border-radius: 0%;
+}
+.time-right {
+  float: right;
+  color: rgb(242, 242, 242);
+}
+.time-left {
+  float: left;
+  color: rgb(242, 242, 242);
+}
+#left{
+  margin-left: 12px;
+  margin-bottom: 10px;
+  text-align:left;
+}
+#right{
+  margin-right: 12px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+#message{
+  max-width: 51rem;
+  width: 100%;
+  height: 50px;
+}
+#send{
+  color: #FC4F4F;
+  background-color: #FFBC80;
+  max-width: 4rem;
+  width: 100%;
+  height: 50px;
+}
 
 /* footer */
 .footer{
