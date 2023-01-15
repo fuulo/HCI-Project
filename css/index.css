@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+@media only screen and (max-width: 1000px){
+    .next,.prev{
+        width: 2rem;
+    }
+    
+}
 /* navbar */
 .navbar{
     background-color: #FF9F45;
