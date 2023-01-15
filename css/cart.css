@@ -64,7 +64,9 @@
 	background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 10px 20px #1687d933;
+	font-size: 3vw;
 }
+
 
 .Header{
 	margin: auto;
@@ -74,10 +76,13 @@
 	justify-content: space-between;
 	align-items: center;
 }
-
+.about {
+	
+    font-size: 2vw;
+}
 .Heading{
-	font-size: 20px;
-	font-weight: 700;
+	font-size: 2vw;
+	font-weight: 700vw;
 	color: #2F3841;
 }
 
@@ -88,16 +93,22 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-size: 2vw;
 }
+
 .image-box{
 	width: 15%;
 	text-align: center;
+	font-size: 2vw;
+
 }
 .subtitle{
 	line-height: 10px;
 	font-size: 18px;
 	font-weight: 600;
 	color: #909090;
+	font-size: 1.5vw;
+
 }
 
 .counter{
@@ -105,6 +116,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-size: 1vw;
+
 }
 .btn{
 	width: 40px;
@@ -118,23 +131,26 @@
 	font-weight: 900;
 	color: #202020;
 	cursor: pointer;
-
+	font-size: 3vw;
 }
 .count{
 	font-size: 20px;
 	font-weight: 600;
 	color: #202020;
+	font-size: 2vw;
 }
 
 .prices{
 	height: 100%;
 	text-align: right;
+	font-size: 2vw;
 }
 .amount{
 	padding-top: 20px;
 	font-size: 26px;
 	font-weight: 800;
-	color: #202020;
+	color: #202020; 
+	font-size: 2vw;
 }
 .Action{
 	font-size: 14px;
@@ -142,6 +158,7 @@
 	color: #E44C4C;
 	cursor: pointer;
 	border-bottom: 1px solid #E44C4C;
+	font-size: 2vw;
 }
 .save{
 	padding-top: 5px;
@@ -149,6 +166,7 @@
 	font-weight: 600;
 	color: #1687d9;
 	cursor: pointer;
+	font-size: 2vw;
 }
 .remove{
 	padding-top: 5px;
@@ -156,6 +174,7 @@
 	font-weight: 600;
 	color: #E44C4C;
 	cursor: pointer;
+	font-size: 1.5vw;
 }
 
 .pad{
@@ -172,17 +191,17 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	font-size: 2vw;
 }
 .Subtotal{
 	font-size: 22px;
-	
+	font-size: 2vw;
 	font-weight: 700;
 	color: #202020;
 }
 
 .total-amount{
-	font-size: 36px;
-	
+	font-size: 1vw;
 	font-weight: 900;
 	color: #202020;
 }
@@ -194,10 +213,49 @@
 	background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
 	border-radius: 20px;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 5vw;
 	font-weight: 600;
 	color: #202020;
 }
+
+.img {
+
+	height: 120px;
+	
+}
+.img2 {
+	height: 120px;
+}
+.img3 {
+	height: 120px;
+}
+.img4{
+	height: 120px;
+}
+.img5{
+	height: 120px;
+}
+
+@media (max-width: 800px) {
+    .CartContainer {
+      flex-direction: column;
+    }
+    .Cart-Items{
+        flex:100%;
+    }
+    
+    .Cart-Items pad{
+        width: 50%;
+        margin: auto;
+    }
+    form{
+        width:100%;
+    }
+    form input{
+        width: 100%;
+    }
+    
+  }
 /* footer */
 .footer{
     background-color: #FF9F45;
