@@ -76,33 +76,41 @@ body {
 
 /* Sidenav */
 .sidenav {
-    background-color: #fff;
-    color: #333;
     border-bottom-right-radius: 25px;
-    height: 36%;
+    max-height: 36%;
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
     position: fixed;
     top: x;
     width: 250px;
+    max-width: 45%;
 }
 
 .profile {
     margin-bottom: 20px;
     margin-top: 15px;
     text-align: center;
+    width: 50%;
 }
 
 .profile img {
     border-radius: 50%;
     box-shadow: 0px 0px 5px 1px grey;
+    max-width: 300%;
 }
+.title {
 
+    max-width: 90%;
+    max-height: 50%;
+    font-size: 1.5vw;
+    margin-top: -3%;
+}
 .name {
     font-size: 20px;
     font-weight: bold;
     padding-top: 20px;
+    max-width: 200%;
 }
 
 /* Main */
@@ -123,6 +131,7 @@ body {
     height: auto;
     margin-bottom: 20px;
     padding: 20px 0 20px 50px;
+    max-width: 100%;
 }
 
 .main .card table {
